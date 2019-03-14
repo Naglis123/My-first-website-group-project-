@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.visasPsl {
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 32px;
+	padding-right: 32px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.krioklys {
+	width: 100%;
+	margin-top: 0px;
+	position: relative;
+	left: 0px;
+	justify-content: center;
+}
+
+.virsus {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-top: 10px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
