@@ -2,8 +2,27 @@
 <html>
 <head>
 	<title>VCS projektas</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-	<h1>VAZIUOJAM!</h1>
+
+	<div class="visasPsl" >
+		<div class="virsus" >
+
+			<img class="krioklys" src="images/pgr.jpg">
+
+
+
+
+		</div>
+
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+
 </body>
 </html>
