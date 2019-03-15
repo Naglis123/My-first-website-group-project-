@@ -34,6 +34,61 @@
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+<<<<<<< HEAD
+}
+
+.brand-logoImg {
+	margin: 10px;
+}
+
+.nav-color {
+	background-color: #383232;
+}
+
+.navigacija {
+	position: relative;
+	background-size: cover;
+}
+
+
+body {
+	margin: 0;
+}
+
+.atsiliepimai {
+	height: 100vh;
+	background-image: url(https://picsum.photos/1920/1080?image=1044);
+	background-size: cover;
+	position: relative;
+}
+
+h3 {
+	padding-top: 25px;
+	margin: 0px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.row {
+	width: 50%;
+	margin-left: 80px;
+	color: white;
+	margin-top: 50px;
+}
+
+
+.input-field label {
+     color: white;
+ }
+
+.input-field input[type=text]:focus {
+     border-bottom: 3px solid white;
+     box-shadow: 0 1px 0 0 white;
+ }
+=======
 	background-image: url(../images/pgr.jpg);
 	height: 100vh;
 	background-size: cover;
@@ -87,3 +142,4 @@ h4 {
 
 
 
+>>>>>>> 598fc0da621151ed6fe0ff9bc312e3d0e39d3e22
