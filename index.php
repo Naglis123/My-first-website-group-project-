@@ -10,7 +10,7 @@
 </head>
 <body>
 
- <?php //include "virsutineJuosta.php"; ?> 
+ <?php include "virsutineJuosta.php"; ?> 
 
 	<div class="visasPsl">
 		<div class="virsus">
