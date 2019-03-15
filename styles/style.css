@@ -69,10 +69,20 @@ h5 {
 h4 {
 	text-align: center;
 	color: white;
-	font-size: 30px;
+	font-size: 25px;
 	position: absolute;
 	padding-top: 105px;
     padding-left: 27%;
+}
+
+.h-linija {
+	display: inline-block;
+    width: 64px;
+    bottom: 5px;
+    margin-left: 16px;
+    margin-right: 16px;
+    position: relative;
+    border-bottom: solid 1px white;
 }
 
 

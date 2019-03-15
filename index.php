@@ -10,8 +10,9 @@
 </head>
 <body>
 
+ <?php //include "virsutineJuosta.php"; ?> 
 
-	<div class="visasPsl" >
+	<div class="visasPsl">
 		<div class="virsus">
 			<div class="shade"></div>
 
@@ -19,7 +20,7 @@
 			<div class="title">
 				<h1>Welcome, let's travel the world!</h1>
 				<h5><span class="h-linija"></span>Since 2018<span class="h-linija"></span></h5>
-				<h4 class="about">About us</h3>
+				<h4 class="about">About us</h4>
 			</div>
 			
 		</div>
