@@ -11,27 +11,68 @@
 </head>
 <body>
 
-	<div class="container">
+	<?php include "virsutineJuosta.php"; ?>
 
-		<div class="navigacija">
+	<!-- <div class="container" -->
+
+		<!-- <div class="navigacija">
 			
 			<ul id="dropdown1" class="dropdown-content">
-			  <li><a href="#!">one</a></li>
-			  <li><a href="#!">two</a></li>
+			  <li><a href="#!">Home</a></li>
+			  <li><a href="#!">Our Team</a></li>
 			  <li class="divider"></li>
-			  <li><a href="#!">three</a></li>
+			  <li><a href="#!">About</a></li>
 			</ul>
-			<nav>
+			<nav class="nav-color">
 			  <div class="nav-wrapper">
-			    <a href="images/logo.jpg" class="brand-logo">Logo</a>
+			    <a href="" class="brand-logo"><img class="brand-logoImg" src="images/world.png" height="45px"></a>
 			    <ul class="right hide-on-med-and-down">
-			      <li><a href="">Sass</a></li>
-			      <li><a href="">Components</a></li>
-			      <!-- Dropdown Trigger -->
-			      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+			      <li><a href="">Home</a></li>
+			      <li><a href="">Our Team</a></li>
+			      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">More<i class="material-icons right">arrow_drop_down</i></a></li>
 			    </ul>
 			  </div>
 			</nav>
+
+		</div> -->
+
+		<div class="atsiliepimai">
+
+			<h3>Reviews</h3>
+
+			 <div class="row">
+    <form class="col_s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          Your Review:
+          <div class="input-field inline">
+            <input id="email_inline" type="email" class="validate">
+            <label for="email_inline">Review</label>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+			
+
+
 
 		</div>
 		
@@ -51,7 +92,8 @@
 
 
 
-	</div>
+	<!-- </div> -->
+
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
