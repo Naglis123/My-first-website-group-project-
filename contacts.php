@@ -83,7 +83,31 @@
 		</div>
 	</div>
 
-
+	<footer class="page-footer grey darken-3">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text"><a href="" class="brand-logo"><img class="brand-logoImg" src="images/world.png" height="45px"></a></h5>
+                <p class="grey-text text-lighten-4">Travel Agency - Let's Travel The World</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!"><img src="images/facebook-circle.png" height="20"></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><img src="images/instagram-circle.png" height="20"></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><img src="images/linkedin-circle.png" height="20"></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><img src="images/twitter-circle.png" height="20"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright grey darken-4">
+            <div class="container">
+            © 2019 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
 
 
 
