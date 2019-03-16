@@ -104,38 +104,103 @@ body {
 	margin: 0;
 }
 
-.atsiliepimai {
-	height: 100vh;
+
+.contactsPuslapis {
+	overflow: hidden;
+}
+
+.bg-photo {
 	background-image: url(https://picsum.photos/1920/1080?image=1044);
+	height: 100vh;
 	background-size: cover;
+	background-position: center center;
+}
+
+.content-wrapper {
+	width: 100%;
+	max-width: 1200px;
+	padding-left: 32px;
+	padding-right: 32px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
 }
 
-h3 {
-	padding-top: 25px;
-	margin: 0px;
+h2	{
+	position: relative;
 	text-align: center;
-	color: white;
-	font-size: 40px;
-	font-family: sans-serif;
-	text-transform: uppercase;
+	margin-top: 32px;
+	font-size: 32px;
+	padding-bottom: 16px;
+	color: #000040;
 }
 
-.row {
+h2.h-white {
+	color: #ffffff;
+}	
+
+.blocks-wrapper {
+	display: flex;
+	margin-top: 64px;
+	margin-bottom: 32px;
+}	
+
+.blocks-wrapper .form-wrapper {
 	width: 50%;
-	margin-left: 80px;
-	color: white;
-	margin-top: 50px;
+	padding-right: 16px; 
 }
 
+.blocks-wrapper .map-wrapper {
+	width: 50%;
+	padding-left: 16px;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #515812;
+	opacity: 0.3;
+}
 
 .input-field label {
      color: white;
+}
+   /* label focus color */
+.input-field input[type=text]:focus + label {
+     color: white;
  }
-
+   /* label underline focus color */
 .input-field input[type=text]:focus {
-     border-bottom: 3px solid white;
+     border-bottom: 1px solid white;
      box-shadow: 0 1px 0 0 white;
  }
+   /* valid color */
+.input-field input[type=text].valid {
+     border-bottom: 1px solid white;
+     box-shadow: 0 1px 0 0 white;
+}
+   /* invalid color */
+.input-field input[type=text].invalid {
+     border-bottom: 1px solid white;
+     box-shadow: 0 1px 0 0 white;
+}
+   /* icon prefix focus color */
+.input-field .prefix.active {
+     color: white;
+}
+
+.mapsVidus {
+	list-style: none;
+	display: flex;
+}
+
+.mapsVidus h6, p {
+	color: white;
+}
 
 
+.mapsVidus li {
+	margin: 0 16px 0 16px;
+}
