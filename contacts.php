@@ -68,7 +68,6 @@
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2304.983423849919!2d25.290128216029665!3d54.70991477940151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd96ae1dedd637%3A0x73978617430c730c!2sUlon%C5%B3+g.+5%2C+Vilnius+08240!5e0!3m2!1sen!2slt!4v1530566996484" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</li>
 						<li>
-
 					<h6>Find Us:</h6>
 					<p>Travel Agency</p>
 					<p>Ulonu g. 5, Vilnius</p>

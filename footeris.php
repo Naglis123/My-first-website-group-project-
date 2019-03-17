@@ -3,11 +3,11 @@
 			<div class="apacia">
 				
 				<ul class="footer-meniu">
-					<li><a class="judekitNav" href="#">Home</a></li>
-					<li><a class="judekitNav" href="#">About Us</a></li>
+					<li><a class="judekitNav" href="index.php">Home</a></li>
+					<li><a class="judekitNav" href="list.php">Our Trips</a></li>
 					<li><a href="#"><img class="footer-logo" src="images/world.png"></a></li>
 					<li><a class="judekitNav" href="#">Social</a></li>
-					<li><a class="judekitNav" href="#">Contact</a></li>
+					<li><a class="judekitNav" href="contacts.php">Contact</a></li>
 				</ul>
 
 				<ul class="social-links">
