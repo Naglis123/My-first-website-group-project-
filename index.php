@@ -19,9 +19,12 @@
 			
 			<div class="title">
 				<h1>Welcome, let's travel the world!</h1>
-				<h5><span class="h-linija"></span>Since 2018<span class="h-linija"></span></h5>
+				<h5 class="since"><span class="h-linija"></span>Since 2018<span class="h-linija"></span></h5>
 				<h4 class="about">About us</h4>
+				<h5 class="kuryba"><span class="h-linija2"></span>We are a group of people gathered to hepl You conquer the World. Tickets, housing and trips within 3 steps. This is where Your journey begins<span class="h-linija2"></span></h5>
 			</div>
+
+			<img class="arrow-down" src="images/down-arrow.png">
 			
 		</div>
 
