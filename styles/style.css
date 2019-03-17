@@ -205,3 +205,81 @@ h2.h-white {
 	margin: 0 16px 0 16px;
 }
 
+.footeris {
+	background-color: #383232;
+	overflow: hidden;
+}
+
+.apacia {
+}
+
+.footer-meniu {
+	display: flex;
+	margin-top: 40px;
+	justify-content: center;
+}
+
+.footer-meniu li {
+	margin: 0 16px 0 16px;
+}
+
+.footer-meniu li a {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: white;
+}
+
+.footer-meniu li .footer-logo {
+	vertical-align: middle;
+}
+
+.footer-logo {
+	height: 45px;
+	cursor: pointer;
+	transition: 0.4s all;
+}
+
+.footer-logo:hover {
+	height: 50px;
+}
+
+.social-links {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.social-links li {
+	margin: 0 16px 0 16px;
+}
+
+.social-links li img {
+	width: 40px;
+}
+
+.copyright {
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: white;
+}
+
+.judekitImg {
+	cursor: pointer;
+	transition: 0.4s all;
+}
+
+.judekitImg:hover {
+	width: 45px;
+}
+
+.judekitNav {
+	cursor: pointer;
+	transition: 0.3s all;
+}
+
+.judekitNav:hover {
+	border-bottom: solid;
+	border-color: #73ddcd;
+}
