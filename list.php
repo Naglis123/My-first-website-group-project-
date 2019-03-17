@@ -11,7 +11,6 @@
 <body>
 
 <?php include "virsutineJuosta.php"; ?>
-
    
 
 
@@ -30,9 +29,9 @@ From Saharan dunes to the peaks of the High Atlas, Morocco could have been tailo
     <button>More details...</button>
     </div>
     </div>
-    
+    <div class="shade">
     <p>Stuff</p>
-    
+    </div>
   <div class="divider"></div>
   <div class="fonas2">
     <div class="section">
@@ -42,9 +41,10 @@ From Saharan dunes to the peaks of the High Atlas, Morocco could have been tailo
 Few places on earth stir up passion the way that Israel does: the breathtaking beauty of its hills and valleys, the eerie stillness of the Dead Sea, the multi-coloured canyon of Makhtesh Ramon, and the ancient walls and pathways of Nazareth and Jerusalem. The call of the muezzin and the quiet prayers of Orthodox Jews at the Western Wall reflect how the religious devotion of the Muslims, Christians and Jews who live here runs through every facet of life.</h6>
     <button>More details...</button>
     </div>
-	</div>	
+	</div>
+	<div class="shade">	
     <p>Stuff</p>   
-  
+  	</div>	
   <div class="divider"></div>
   <div class="fonas3">
   <div class="section">
@@ -55,8 +55,9 @@ Geologically dramatic, bursting with exotic colour and warmed year-round by the 
     <button>More details...</button>
     </div>
 	</div>
+	<div class="shade">
     <p>Stuff</p>
-
+    </div>
   <div class="divider"></div>
   <div class="fonas4">
   <div class="section">
@@ -67,10 +68,8 @@ Seven cinematic hillsides overlooking the Rio Tejo cradle Lisbon's postcard-perf
     <button>More details...</button>
     </div>
 	</div>
-    <p>Stuff</p>  
-  </div>
-
-
+	
+  
 
 
 
