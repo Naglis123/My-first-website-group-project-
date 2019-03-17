@@ -103,15 +103,22 @@ h4 {
     border-bottom: solid 1px white;
 }
 
-.down-arrow {
-	height: 10px;
+.arrow-down {
+	height: 20px;
 	position: absolute;
-	bottom: 32px;
 	padding-bottom: 5px;
-	left: 25%;
-	/*transform: translateX(-50%);
-	cursor: pointer;*/
-	/*transition: 0.5s all;*/
+	left: 655px;
+	transform: translateX(-50%);
+	cursor: pointer;
+	transition: 0.5s all;
+	bottom: 10px;
+}
+
+.btn-floating {
+	text-align: center;
+	background-color: #ffab91;
+	opacity: 0.3;
+	right: 666px;
 }
 
 
