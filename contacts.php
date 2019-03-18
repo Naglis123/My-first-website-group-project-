@@ -41,10 +41,10 @@
 
 				if (mysqli_query($conn, $sql)) {
 							    echo "New record created successfully";
-							    header('location: contacts.php');
+							    header('location: contacts.php?message=success');
 							} else {
 							    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-							    header('location: contacts.php');
+							    header('location: contacts.php?message=failed');
 							}
 
 						}
