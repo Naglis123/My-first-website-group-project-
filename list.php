@@ -35,10 +35,11 @@ From Saharan dunes to the peaks of the High Atlas, Morocco could have been tailo
   <div class="divider"></div>
   <div class="fonas2">
     <div class="section">
+      <h6 class="h-white6">Welcome to Israel
+Few places on earth stir up passion the way that Israel does: the breathtaking beauty of its hills and valleys, the eerie stillness of the Dead Sea, the multi-coloured canyon of Makhtesh Ramon, and the ancient walls and pathways of Nazareth and Jerusalem. The call of the muezzin and the quiet prayers of Orthodox Jews at the Western Wall reflect how the religious devotion of the Muslims, Christians and Jews who live here runs through every facet of life.</h6>
   	<img src="images/jerusalem.jpg">
     <h5>ISRAEL</h5>
-    <h6 class="h-white6">Welcome to Israel
-Few places on earth stir up passion the way that Israel does: the breathtaking beauty of its hills and valleys, the eerie stillness of the Dead Sea, the multi-coloured canyon of Makhtesh Ramon, and the ancient walls and pathways of Nazareth and Jerusalem. The call of the muezzin and the quiet prayers of Orthodox Jews at the Western Wall reflect how the religious devotion of the Muslims, Christians and Jews who live here runs through every facet of life.</h6>
+    
     <button>More details...</button>
     </div>
 	</div>
