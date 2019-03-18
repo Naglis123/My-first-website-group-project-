@@ -248,6 +248,9 @@ h2	{
 h2.h-white {
 	color: #ffffff;
 }
+h6.h-white6 {
+	color: #ffffff;
+}
 
 .h-white:hover {
 	text-shadow: 2px 2px 5px black;
