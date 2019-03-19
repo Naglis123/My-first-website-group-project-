@@ -31,7 +31,6 @@
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(../images/pgr.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center center;
@@ -98,6 +97,9 @@
 	background-position: center center;
 }
 
+.pav14 {
+padding-right: 0px;	
+}
 
 .shade {
 	position: absolute;
