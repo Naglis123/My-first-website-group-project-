@@ -40,9 +40,7 @@
 
 .fonas1 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+		
 	padding-top: 0px;
 	max-width: 100%;
 	margin-left: auto;
@@ -55,9 +53,7 @@
 
 .fonas2 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+	
 	padding-top: 0px;
 	max-width: 100%;
 	margin-left: auto;
@@ -70,9 +66,7 @@
 
 .fonas3 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+	
 	padding-top: 0px;
 	max-width: 100%;
 	margin-left: auto;
@@ -85,9 +79,7 @@
 
 .fonas4 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
+	
 	padding-top: 0px;
 	max-width: 100%;
 	margin-left: auto;
