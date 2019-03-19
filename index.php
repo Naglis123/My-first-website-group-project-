@@ -10,10 +10,24 @@
 </head>
 <body>
 
- <?php include "virsutineJuosta.php"; ?> 
+ 	<?php include "virsutineJuosta.php"; ?> 
+
+	<?php
+		$input = array(
+			'images/pic1.jpg', 'images/pic2.jpg', 'images/pic3.jpg', 'images/pic4.jpg', 'images/pgr.jpg', 'images/pic5.jpg'
+		);
+		$rand_photos = array_rand($input);
+		// echo $input[$rand_photos];
+
+	?>
+
+
+
+
+
 
 	<div class="visasPsl">
-		<div class="virsus">
+		<div class="virsus" style="background-image: url(<?php echo $input[$rand_photos]; ?>);">
 			<div class="shade"></div>
 
 			
@@ -25,9 +39,17 @@
 			</div>
 
 <div class="burbuliukas">
-			<img class="arrow-down" src="images/down-arrow.png">
-			<a class="btn-floating btn-large pulse"><i class="material-icons">arrow-down</i></a>
+
+			<!-- <a href="list.php"> -->
+				<img class="arrow-down" src="images/down-arrow.png">
+				<a href="list.php" class="btn-floating btn-large pulse"><i class="material-icons">arrow-down</i></a>
+		<!-- 	</a> -->
+
+		
+			
  </div>
+
+
 		</div>
 
 <?php include "footeris.php"; ?> 
