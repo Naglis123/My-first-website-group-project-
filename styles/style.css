@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .visasPsl {
@@ -253,6 +253,10 @@ h2.h-white {
 }
 h6.h-white6 {
 	color: #ffffff;
+}
+
+.h-white {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .h-white:hover {

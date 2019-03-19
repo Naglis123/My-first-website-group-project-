@@ -4,7 +4,7 @@
 			  <li><a href="index.php">Home</a></li>
 			  <li><a href="list.php">Our Trips</a></li>
 			  <li class="divider"></li>
-			  <li><a href="contacts.php">About</a></li>
+			  <li><a href="contacts.php">Contacts</a></li>
 			</ul>
 			<nav class="nav-color">
 			  <div class="nav-wrapper">
