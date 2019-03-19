@@ -6,8 +6,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 <body>
@@ -40,6 +40,8 @@
 			      $sql = "INSERT INTO kelioniu_atsiliepimai (vardas, pavarde, email, atsiliepimas)
 				VALUES ('" . $_GET["vardas"] . "', '" . $_GET["pavarde"] . "', '" . $_GET["email"] . "', '" . $_GET["atsiliepimas"] . "')";
 
+
+
 				if (mysqli_query($conn, $sql)) {
 							    echo "New record created successfully";
 							    header('location: contacts.php?message=success');
@@ -57,8 +59,18 @@
         }
 */
 						
-		
-
+		/*$emailAddress = false;
+		if(isset($_POST['email'])){
+		    $emailAddress = $_POST['email'];
+		}*/
+		 
+		/*if (mysqli_query($conn, $sql)) {
+			  echo "New record created successfully";
+				header('location: contacts.php?message=success');
+			} else {
+			echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+			header('location: contacts.php?message=failed');
+			}*/
 
 
 
@@ -77,7 +89,7 @@
 				<div class="form-wrapper">
 
 					<div class="row">
-			    	<form class="col_s12">
+			    	<form id="my-form" class="col s12" action="" method="POST">
 			      		<div class="row">
 			        	<div class="input-field col s6">
 			          <input id="first_name" type="text" class="validate white-text" name="vardas">
