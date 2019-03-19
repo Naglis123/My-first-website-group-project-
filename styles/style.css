@@ -97,6 +97,9 @@
 	background-position: center center;
 }
 
+.pav14 {
+padding-right: 0px;	
+}
 
 .shade {
 	position: absolute;
@@ -384,3 +387,4 @@ h6.h-white6 {
 .find {
 	font-weight: bold;
 }
+

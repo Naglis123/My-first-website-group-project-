@@ -14,6 +14,52 @@
 	<?php include "virsutineJuosta.php"; ?>
 
 
+	<?php
+
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "atsiliepimai";
+
+		// Create connection
+		$conn = mysqli_connect($servername, $username, $password, $dbname);
+		// Check connection
+		if (!$conn) {
+		    die("Connection failed: " . mysqli_connect_error());
+		}
+
+		mysqli_set_charset($conn, "utf8");
+
+		if (isset($_GET["vardas"]) && $_GET["vardas"] != "" &&
+			isset($_GET["pavarde"]) && $_GET["pavarde"] != "" &&
+			isset($_GET["email"]) && $_GET["email"] != "" &&
+			isset($_GET["atsiliepimas"]) && $_GET["atsiliepimas"] != ""
+	) {
+
+			      $sql = "INSERT INTO kelioniu_atsiliepimai (vardas, pavarde, email, atsiliepimas)
+				VALUES ('" . $_GET["vardas"] . "', '" . $_GET["pavarde"] . "', '" . $_GET["email"] . "', '" . $_GET["atsiliepimas"] . "')";
+
+				if (mysqli_query($conn, $sql)) {
+							    echo "New record created successfully";
+							    header('location: contacts.php?message=success');
+							} else {
+							    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+							    header('location: contacts.php?message=failed');
+							}
+
+						}
+
+						
+		
+
+
+
+
+
+
+	?>
+
+
 	<div class="overlay"></div>
 
 	<div class="contactsPuslapis bg-photo">
@@ -44,7 +90,7 @@
 			      	</div>
 			      	<div class="row Review">
 			        <div class="input-field col s12">
-			          <textarea id="textarea1" class="materialize-textarea white-text" name="tekstas"></textarea>
+			          <textarea id="textarea1" class="materialize-textarea white-text" name="atsiliepimas"></textarea>
 			          <label for="textarea1">Your Review Here</label>
 			        </div>
 			      </div>
