@@ -6,8 +6,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 <body>
@@ -15,57 +15,7 @@
 	<?php include "virsutineJuosta.php"; ?>
 
 
-	<?php
-
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "atsiliepimai";
-
-		// Create connection
-		$conn = mysqli_connect($servername, $username, $password, $dbname);
-		// Check connection
-		if (!$conn) {
-		    die("Connection failed: " . mysqli_connect_error());
-		}
-
-		mysqli_set_charset($conn, "utf8");
-
-		if (isset($_GET["vardas"]) && $_GET["vardas"] != "" &&
-			isset($_GET["pavarde"]) && $_GET["pavarde"] != "" &&
-			isset($_GET["email"]) && $_GET["email"] != "" &&
-			isset($_GET["atsiliepimas"]) && $_GET["atsiliepimas"] != ""
-	) {
-
-			      $sql = "INSERT INTO kelioniu_atsiliepimai (vardas, pavarde, email, atsiliepimas)
-				VALUES ('" . $_GET["vardas"] . "', '" . $_GET["pavarde"] . "', '" . $_GET["email"] . "', '" . $_GET["atsiliepimas"] . "')";
-
-				if (mysqli_query($conn, $sql)) {
-							    echo "New record created successfully";
-							    header('location: contacts.php?message=success');
-							} else {
-							    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
-							    header('location: contacts.php?message=failed');
-							}
-
-		}
-
-			/*if (isset($_GET['message']) && $_GET['message'] == 'success') {
-            echo "Review submited";
-        } else if (isset($_GET['message']) && $_GET['message'] == 'failed') {
-            echo "Failed to submit";
-        }
-*/
-						
-		
-
-
-
-
-
-
-	?>
-
+	
 
 	<div class="overlay"></div>
 
@@ -77,27 +27,27 @@
 				<div class="form-wrapper">
 
 					<div class="row">
-			    	<form class="col_s12">
+			    	<form id="my-form" class="col s12" method="POST">
 			      		<div class="row">
 			        	<div class="input-field col s6">
-			          <input id="first_name" type="text" class="validate white-text" name="vardas">
+			          <input id="first_name" type="text" class="validate white-text" name="first_name" required="">
 			          <label for="first_name">First Name</label>
 			        	</div>
 			        	<div class="input-field col s6">
-			          <input id="last_name" type="text" class="validate white-text" name="pavarde">
+			          <input id="last_name" type="text" class="validate white-text" name="last_name" required="">
 			          <label for="last_name">Last Name</label>
 			        </div>
 			      	</div>
 			      
 			      	<div class="row Email">
 			        <div class="input-field col s12">
-			          <input id="email" type="email" class="validate white-text" name="email">
+			          <input id="email" type="email" class="validate white-text" name="email" required="">
 			          <label for="email">Email</label>
 			        </div>
 			      	</div>
 			      	<div class="row Review">
 			        <div class="input-field col s12">
-			          <textarea id="textarea1" class="materialize-textarea white-text" name="atsiliepimas"></textarea>
+			          <textarea id="atsiliepimas" class="materialize-textarea white-text" name="atsiliepimas" required=""></textarea>
 			          <label for="textarea1">Your Review Here</label>
 			        </div>
 			      </div>
