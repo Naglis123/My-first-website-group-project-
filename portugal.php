@@ -13,7 +13,6 @@
 <?php include "virsutineJuosta.php"; ?>
    
 
-
 <!-- 2 var -->
  <div class="divider"></div>
  
