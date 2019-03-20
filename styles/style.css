@@ -1,6 +1,6 @@
 * {
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .visasPsl {
@@ -27,25 +27,20 @@
 
 .virsus {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
 	padding-top: 0px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url(../images/pgr.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center center;
+	overflow: hidden;
 }
 
 .fonas1 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 0px;
+		
+	padding-top: 110px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -55,12 +50,21 @@
 	background-position: center center;
 }
 
+.fonas11 {
+	position: relative;		
+	padding-top: 110px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/fonas11.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+}
 .fonas2 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 0px;
+	
+	padding-top: 110px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -72,10 +76,8 @@
 
 .fonas3 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 0px;
+	
+	padding-top: 110px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -87,10 +89,8 @@
 
 .fonas4 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 0px;
+	
+	padding-top: 110px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -100,6 +100,9 @@
 	background-position: center center;
 }
 
+.pav14 {
+padding-right: 0px;	
+}
 
 .shade {
 	position: absolute;
@@ -109,10 +112,13 @@
 	opacity: 0.3;
 }
 .title {
-	position: relative;
-    padding-bottom: 25%;
+	width: 60%;
+	position: absolute;
     text-align: center;
-    padding-left: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 
 h1 {
@@ -131,9 +137,6 @@ h4 {
 	text-align: center;
 	color: white;
 	font-size: 25px;
-	position: absolute;
-	padding-top: 105px;
-    padding-left: 28%;
 }
 
 .h-linija {
@@ -150,8 +153,6 @@ h4 {
 	text-align: center;
 	color: white;
 	font-size: 17px;
-	position: absolute;
-	padding-top: 160px;
 }
 
 .h-linija2 {
@@ -166,20 +167,27 @@ h4 {
 
 .arrow-down {
 	height: 20px;
-	position: absolute;
-	padding-bottom: 5px;
-	left: 655px;
-	transform: translateX(-50%);
 	cursor: pointer;
 	transition: 0.5s all;
-	bottom: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	
 }
 
 .btn-floating {
 	text-align: center;
 	background-color: #ffab91;
 	opacity: 0.3;
-	right: 666px;
+	
+}
+
+.burbuliukas {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .divider1 {
@@ -244,12 +252,38 @@ h2	{
 	padding-bottom: 16px;
 	color: #000040;
 }
+.aprasymaslist	{
+	position: relative;
+	text-align: left;
+	color: #ffffff;
+	margin: 0.7666666667rem 0.46rem;
+	margin-top: 0.766667rem;
+    margin-right: 0px;
+    margin-bottom: 0.46rem;
+    margin-left: 0px;
+	line-height: 110%;
+	font-weight: 400;
+	font-size: 1.15rem;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	padding-bottom: 16px;	
+	display: block;
+	margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 
 h2.h-white {
 	color: #ffffff;
 }
 h6.h-white6 {
-	color: #ffffff;
+	color: #ffffff;	
+}
+
+.h-white {
+	font-family: 'Montserrat', sans-serif;
 }
 
 .h-white:hover {
@@ -287,25 +321,6 @@ h6.h-white6 {
 .input-field input[type=text]:focus + label {
      color: white;
  }
-   /* label underline focus color */
-.input-field input[type=text]:focus {
-     border-bottom: 1px solid white;
-     box-shadow: 0 1px 0 0 white;
- }
-   /* valid color */
-.input-field input[type=text].valid {
-     border-bottom: 1px solid white;
-     box-shadow: 0 1px 0 0 white;
-}
-   /* invalid color */
-.input-field input[type=text].invalid {
-     border-bottom: 1px solid white;
-     box-shadow: 0 1px 0 0 white;
-}
-   /* icon prefix focus color */
-.input-field .prefix.active {
-     color: white;
-}
 
 .mapsVidus {
 	list-style: none;
@@ -397,3 +412,8 @@ h6.h-white6 {
 	border-bottom: solid;
 	border-color: #73ddcd;
 }
+
+.find {
+	font-weight: bold;
+}
+
