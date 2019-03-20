@@ -57,15 +57,15 @@ Mountains & Desert. From Saharan dunes to the peaks of the High Atlas, Morocco c
 
 <!-- caroussel bandymas -->
 
-<!-- <div class="container">
+<div class="container">
 <div class="carousel" id ="demo-caroussel">
-    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#one!"><img src="images/morocco1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="images/morocco2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="images/morocco3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="images/morocco4.jpg"></a>
+    <a class="carousel-item" href="#five!"><img src="images/morocco6.jpg"></a>
   </div>
-</div> -->
+</div>
 
 <!-- caroussel bandymas -->
 

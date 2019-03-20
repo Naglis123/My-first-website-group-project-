@@ -45,7 +45,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../images/fonas1.jpg);
-	height: 100vh;
+	min-height: 100vh;
 	background-size: cover;
 	background-position: center center;
 }
@@ -57,7 +57,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../images/fonas11.jpg);
-	height: 100vh;
+	min-height: 100vh;
 	background-size: cover;
 	background-position: center center;
 }
@@ -69,7 +69,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../images/fonas2.jpg);
-	height: 100vh;
+	min-height: 100vh;
 	background-size: cover;
 	background-position: center center;
 }
@@ -82,7 +82,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../images/fonas3.jpg);
-	height: 100vh;
+	min-height: 100vh;
 	background-size: cover;
 	background-position: center center;
 }
@@ -95,7 +95,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url(../images/fonas4.jpg);
-	height: 100vh;
+	min-height: 100vh;
 	background-size: cover;
 	background-position: center center;
 }
