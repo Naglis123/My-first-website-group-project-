@@ -29,7 +29,8 @@
     </div>
   
 	
-	   <div class="row">																			   			<div class="col s12 m4">
+	   <div class="row">																			   			
+	   	<div class="col s12 m4">
 					<img class="responsive-img materialboxed" width="650" src="images/portugal1.jpg">	   		
 				</div>									
 				<div class="col s12 m4">
@@ -39,11 +40,12 @@
 					<img class="responsive-img materialboxed" width="650" src="images/portugal3.jpg">		
 				</div>
 		</div>
-		<div class="row">																			   			<div class="col s12 m4">
+		<div class="row">																			   			
+			<div class="col s12 m4">
 					<img class="responsive-img materialboxed" width="650" src="images/portugal4.jpg">   		
 				</div>									
 				<div class="col s12 m4">
-					<<img class="responsive-img materialboxed" width="650" src="images/portugal5.jpg">	
+					<img class="responsive-img materialboxed" width="650" src="images/portugal5.jpg">	
 				</div>
 				<div class="col s12 m4">
 					<img class="responsive-img materialboxed" width="650" src="images/portugal6.jpg">	

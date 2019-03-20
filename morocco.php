@@ -31,27 +31,45 @@ Mountains & Desert. From Saharan dunes to the peaks of the High Atlas, Morocco c
     </div>
   
 	
-	   <div class="row">																			   			<div class="col s12 m4">
-					<img class="responsive-img materialboxed" width="650" src="images/morocco1.jpg">	   		
-				</div>									
+		   <div class="row">
+		   		<div class="col s12 m4">
+						<img class="responsive-img materialboxed" width="650" src="images/morocco1.jpg">	   		
+					</div>									
+					<div class="col s12 m4">
+						<img class="responsive-img materialboxed" width="650" src="images/morocco2.jpg">		
+					</div>
+					<div class="col s12 m4">
+						<img class="responsive-img materialboxed" width="650" src="images/morocco3.jpg">		
+					</div>
+			</div>
+			<div class="row">
 				<div class="col s12 m4">
-					<img class="responsive-img materialboxed" width="650" src="images/morocco2.jpg">		
-				</div>
-				<div class="col s12 m4">
-					<img class="responsive-img materialboxed" width="650" src="images/morocco3.jpg">		
-				</div>
-		</div>
-		<div class="row">																			   			<div class="col s12 m4">
-					<img class="responsive-img materialboxed" width="650" src="images/morocco4.jpg">   		
-				</div>									
-				<div class="col s12 m4">
-					<<img class="responsive-img materialboxed" width="650" src="images/morocco5.jpg">	
-				</div>
-				<div class="col s12 m4">
-					<img class="responsive-img materialboxed" width="650" src="images/morocco6.jpg">	
-				</div>
-		</div>
+						<img class="responsive-img materialboxed" width="650" src="images/morocco4.jpg">   		
+					</div>									
+					<div class="col s12 m4">
+						<img class="responsive-img materialboxed" width="650" src="images/morocco5.jpg">	
+					</div>
+					<div class="col s12 m4">
+						<img class="responsive-img materialboxed" width="650" src="images/morocco6.jpg">	
+					</div>
+			</div>
   
+
+<!-- caroussel bandymas -->
+
+<!-- <div class="container">
+<div class="carousel" id ="demo-caroussel">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+    <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+  </div>
+</div> -->
+
+<!-- caroussel bandymas -->
+
+
 
 
 <?php include "footeris.php"; ?>

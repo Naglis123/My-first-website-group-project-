@@ -15,7 +15,7 @@
 			<!-- 2 var -->
 				<div class="divider"></div>
 				<div class="shade"></div>
-				<div class="fonas2">
+				<div class="fonas1">
 									
 					<div class="container">
 						<div class="row">
@@ -97,7 +97,7 @@
 			<div class="fonas4">
 				<div class="container">
 					<div class="row">
-						<div class="col s12 m5">
+						<div class="col s12 m7">
 						<img class="responsive-img" src="images/lisbon.jpg">   		
 							<!-- <img src="images/lisbon.jpg"> -->
 						</div>
