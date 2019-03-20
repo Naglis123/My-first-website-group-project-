@@ -14,7 +14,7 @@
 
 	<?php
 		$input = array(
-			'images/pic1.jpg', 'images/pic2.jpg', 'images/pic3.jpg', 'images/pic4.jpg', 'images/pgr.jpg', 'images/pic5.jpg'
+			'images/pic1.jpg', 'images/pic2.jpg', 'images/pic3.jpg', 'images/pic4.jpg', 'images/pgr.jpg', 'images/pic5.jpg', 'images/pic6.jpg', 'images/pic7.jpg', 'images/pic8.jpg', 'images/pic9.jpg', 'images/pic10.jpg'
 		);
 		$rand_photos = array_rand($input);
 		// echo $input[$rand_photos];
@@ -27,9 +27,9 @@
 
 
 	<div class="visasPsl">
+
 		<div class="virsus" style="background-image: url(<?php echo $input[$rand_photos]; ?>);">
 			<div class="shade"></div>
-
 			
 			<div class="title">
 				<h1 class="mainTitle">Welcome, let's travel the world!</h1>
