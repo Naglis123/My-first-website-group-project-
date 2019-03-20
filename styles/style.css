@@ -39,10 +39,8 @@
 
 .fonas1 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 0px;
+		
+	padding-top: 110px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -52,12 +50,21 @@
 	background-position: center center;
 }
 
+.fonas11 {
+	position: relative;		
+	padding-top: 110px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/fonas11.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+}
 .fonas2 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 0px;
+	
+	padding-top: 110px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -69,10 +76,8 @@
 
 .fonas3 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 0px;
+	
+	padding-top: 110px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -84,10 +89,8 @@
 
 .fonas4 {
 	position: relative;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	padding-top: 0px;
+	
+	padding-top: 110px;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -249,12 +252,34 @@ h2	{
 	padding-bottom: 16px;
 	color: #000040;
 }
+.aprasymaslist	{
+	position: relative;
+	text-align: left;
+	color: #ffffff;
+	margin: 0.7666666667rem 0.46rem;
+	margin-top: 0.766667rem;
+    margin-right: 0px;
+    margin-bottom: 0.46rem;
+    margin-left: 0px;
+	line-height: 110%;
+	font-weight: 400;
+	font-size: 1.15rem;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	padding-bottom: 16px;	
+	display: block;
+	margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 
 h2.h-white {
 	color: #ffffff;
 }
 h6.h-white6 {
-	color: #ffffff;
+	color: #ffffff;	
 }
 
 .h-white {
@@ -392,3 +417,9 @@ h6.h-white6 {
 	font-weight: bold;
 }
 
+.row{
+    margin-bottom: 0;
+}
+.row .col {
+    padding: 0;
+}
