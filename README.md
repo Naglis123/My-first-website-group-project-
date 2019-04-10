@@ -2,4 +2,7 @@
 
 [Link to the website!](http://www.codingschoolprojektai.lt/tmp/vcs190320/vcsproject2019/contacts.php)
 
-I made the header, footer And Contact's page.
+I wrote the header, footer And Contact's page.
+All of this was done within 2 weeks of learning.
+MySQL DB is used for the Form section.
+First experience with HTML, CSS, JavaScript, Ajax, SQL, PHP, Git.
