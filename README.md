@@ -1,2 +1,2 @@
-# vcsproject2019
+# My first project in a group of 3
 
